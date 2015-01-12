@@ -35,7 +35,7 @@ plot(Data$Time, Data$Voltage, type="l", xlab="datetime", ylab="Voltage")
 plot(Data$Time, Data$Sub_metering_1, type="l", col="black", xlab="", ylab="Energy sub metering") 
 lines(Data$Time, Data$Sub_metering_2, col="red") 
 lines(Data$Time, Data$Sub_metering_3, col="blue") 
-legend("topright", col=c("black", "red", "blue"), c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty = 1, box.lwd = 0) 
+legend("topright", col=c("black", "red", "blue"), c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty = 1, box.lwd = 0, cex = 0.7) 
 
 # Fourth Chart
  plot(Data$Time, Data$Global_reactive_power, type="n", xlab="datetime", ylab="Global_reactive_power") 
